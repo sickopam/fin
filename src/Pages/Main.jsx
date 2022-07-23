@@ -80,7 +80,7 @@ export default function Main() {
                             mt-3 md:mt-4 lg:mt-5
                             p-3 md:p-6 lg:p-9
                             text-base'>
-              <a onMouseEnter={textEnter} onMouseLeave={textLeave} href='#' className='pl-3 lg:pl-4 btn full-name'></a>
+              <a onMouseEnter={textEnter} onMouseLeave={textLeave} href='https://sickopam.github.io/fin/' className='pl-3 lg:pl-4 btn full-name'></a>
               <h1 className='pr-3 lg:pr-4'>© 2022</h1>
             </div>
             <div className='mt-52 md:mt-28 xl:mt-44
