@@ -79,27 +79,27 @@ export default function Main() {
 
   return (
     <>
-        <div className='h-auto md:h-screen
+        <div className='h-auto lg:h-screen
                         flex flex-col stack__card
                         bg-neutral-800 text-white font-extralight font-custom'>
-            <div data-aos='fade-up' className='flex justify-between 
-                            mt-3 md:mt-4 lg:mt-5
-                            p-3 md:p-6 xl:p-9
-                            text-base'>
+            <div data-aos='fade-in' className='flex justify-between 
+                            mt-3 md:mt-2 lg:mt-5
+                            p-3 md:p-4 xl:p-9
+                            text-sm lg:text-base'>
               <a onMouseEnter={textEnter} onMouseLeave={textLeave} href='https://sickopam.github.io/fin/' className='pl-3 lg:pl-4 btn full-name'></a>
               <h1 className='pr-3 lg:pr-4'>© 2022</h1>
             </div>
-            <div className='mt-52 md:mt-32  xl:mt-44
+            <div className='mt-24 md:mt-32  xl:mt-44
                             w-5/6 sm:w-1/2 md:w-1/3 xl:w-1/3
                             pl-24 lg:pl-36 xl:pl-52'>
-              <h1 data-aos='fade-up' className='text-2xl'>A computer science undergraduate {/*, cyclist, */}and minimalist; that's it </h1>
-              <div className='text-lg md:text-base xl:text-tiny
+              <h1 data-aos='fade-in' className='text-xl md:text-2xl'>A computer science undergraduate {/*, cyclist, */}and minimalist; that's it </h1>
+              <div className='md:text-base xl:text-tiny
                               mt-4 md:mt-6'>
-                <p data-aos='fade-up' className=''>Hello, I'm Opam, a second year university student at Universitas Gadjah Mada.</p>
-                <p data-aos='fade-up' className='mt-4 md:mt-6'>Amongst the broad field of computer science, front–end engineering and web development are my main focus.</p>
+                <p data-aos='fade-in' className=''>Hello, I'm Opam, a second year university student at Universitas Gadjah Mada.</p>
+                <p data-aos='fade-in' className='mt-4 md:mt-6'>Amongst the broad field of computer science, front–end engineering and web development are my main focus.</p>
               </div>
             </div>
-            <div data-aos='fade-up' className='flex justify-between
+            <div data-aos='fade-in' className='flex justify-between
                             text-xs md:text-sm 
                             h-1/2
                             p-3 md:p-6 lg:p-9
@@ -125,7 +125,7 @@ export default function Main() {
                         bg-white text-black font-extralight font-custom'>
           <div className='p-3 md:p-6 lg:p-9
                           text-base'>
-              <div data-aos='fade-up' className='lg:inline-flex mt-3 md:mt-4 lg:mt-5
+              <div data-aos='fade-in' className='lg:inline-flex mt-3 md:mt-4 lg:mt-5
                                                   pl-3 lg:pl-4 pr-3 lg:pr-4'>
                   <div className='inline-flex'>
                     <h1 className='md:text-xxs xl:text-base wbg'>About</h1>
@@ -137,15 +137,14 @@ export default function Main() {
                                     ml-12 md:ml-16 lg:ml-24'>
                       {/* no mr for me2 */}
                       <p className='mr-36 wbg'>My first semester as a computer science student can be summed up in a few words: lack of self-learning. During my second semester, though, I have given myself a slap in the face and began learning the basics of web design and development, mainly using the well known framework Reactjs.</p>
-                      {/* <p data-aos='fade-up' className='mt-5 wbg'>Though it took me some time to explore and find what truly intrigues me about computer science, I have finally decided to devote my time deep diving into the world of web design and development, as well as front-end engineering.</p> */}
+                      {/* <p data-aos='fade-in' className='mt-5 wbg'>Though it took me some time to explore and find what truly intrigues me about computer science, I have finally decided to devote my time deep diving into the world of web design and development, as well as front-end engineering.</p> */}
                     </div>
                     <div className='grid justify-items-end w-2/3 md:w-3/4 lg:w-2/5 '>
                       {/* lg:w-1/2, width on div below, no pl & mr-24, no scale for me2 */}
                       <div className='mr-20 pl-9 scale-95'>
-                        <motion.div whileHover={{scale:1.05}} whileTap={{scale:0.95}}>
+                        <motion.div onMouseEnter={textEnter} onMouseLeave={textLeave}  whileHover={{scale:1.05}} whileTap={{scale:0.95}}>
                           <img
-                          onMouseEnter={textEnter} onMouseLeave={textLeave} 
-                          data-aos='fade-up' 
+                          data-aos='fade-in' 
                           className='rounded-xl drop-shadow-xl' src={me2}></img>
                         </motion.div>
                       </div>
@@ -156,7 +155,7 @@ export default function Main() {
             <div className='md:inline-flex lg:inline-block
                             p-3 md:p-6 lg:p-0
                             '>
-              <div data-aos='fade-up' className='lg:inline-flex
+              <div data-aos='fade-in' className='lg:inline-flex
                               pt-0 lg:pt-16 xl:pt-8
                               lg:justify-around
                               w-1/2 lg:w-screen
@@ -171,7 +170,7 @@ export default function Main() {
                               px-0 lg:px-32 xl:px-36
                               lg:mt-5
                               hidden md:block'>
-                  <div data-aos='fade-up' className='lg:inline-flex gap-16 text-base lg:mt-4 h-fit md:text-sm xl:text-base'>
+                  <div data-aos='fade-in' className='lg:inline-flex gap-16 text-base lg:mt-4 h-fit md:text-sm xl:text-base'>
                     <p className='mb-24 w-3/4 xl:w-11/12 wbg'>Personally, simplicity has always been a priority to my designs. Not only is it easier for a beginner like me to implement simple designs in my projects, but it also gives a satisfying aesthetic that cannot be simply described.</p>
                     <p className='mb-24 w-3/4 xl:w-11/12 wbg'>My preferred style took a huge inspiration from <a onMouseEnter={textEnter} onMouseLeave={textLeave} href='https://www.apple.com/' target='_blank' className='wbg underlink2 afterul'>Apple™</a> and <a onMouseEnter={textEnter} onMouseLeave={textLeave} href='https://www.off---white.com/' target='_blank' className='wbg underlink2 afterul'>Off-White™</a>, who are well known for their simple aesthetic. The overall design and UI/UX were heavily influenced by an outstanding personal portfolio by <a onMouseEnter={textEnter} onMouseLeave={textLeave} href='https://www.martinbriceno.com/' target='_blank' className='wbg underlink2 afterul'>Martin Briceño™</a>.</p>
                     <p className='w-3/4 xl:w-11/12 wbg'>What I aspire to do in college is to obtain and hone my programming skills. As a person considerably new to computer science, I ought to practice at least twice harder than those who has familiarized themselves in this field.</p>
@@ -185,18 +184,18 @@ export default function Main() {
                         bg-neutral-800 text-white font-extralight font-custom'>
             <div className='p-3 md:p-6 lg:p-9'>
               <div className='pt-3 md:pt-4 lg:pt-5'>
-                <div data-aos='fade-up' className='inline-flex pl-3 lg:pl-4'>
+                <div data-aos='fade-in' className='inline-flex pl-3 lg:pl-4'>
                   <div className=''>
                     <h1 className='mr-16 lg:mr-48 xl:mr-24'>Projects</h1>
-                    <p data-aos='fade-up' className='w-80 lg:w-96 pt-20 text-lg xl:text-xl'>I haven't done alot of projects as of now, but I am surely gonna start piling my schedule with them. The first ever project I created was a BMI calculator for an open recruitment in my campus.</p>
+                    <p data-aos='fade-in' className='w-80 lg:w-96 pt-20 text-lg xl:text-xl'>I haven't done alot of projects as of now, but I am surely gonna start piling my schedule with them. The first ever project I created was a BMI calculator for an open recruitment in my campus.</p>
                   </div>
                   <div className='md:ml-28 lg:ml-24 xl:ml-40'>
                     <h1 className=''>Tools</h1>
-                    <p data-aos='fade-up' className='w-80 lg:w-96 pt-20 text-lg xl:text-xl'>I have experimented with alot of tools and frameworks and came across both simple and complex ones, safe to say that these are the ones that I'm mostly going to utilize in my future works.</p>
+                    <p data-aos='fade-in' className='w-80 lg:w-96 pt-20 text-lg xl:text-xl'>I have experimented with alot of tools and frameworks and came across both simple and complex ones, safe to say that these are the ones that I'm mostly going to utilize in my future works.</p>
                   </div>
                 </div>
               </div>
-            <div data-aos='fade-up' className='inline-flex pt-20 pl-4 lg:pl-4'>
+            <div data-aos='fade-in' className='inline-flex pt-20 pl-4 lg:pl-4'>
               <Tilt scale={1.02} perspective={500}>
                 <div onMouseEnter={textEnter} onMouseLeave={textLeave} className='border grid place-items-center'>
                   <a href='https://github.com/sickopam/calcbmi' target='_blank'>
@@ -221,23 +220,23 @@ export default function Main() {
                 </div>
               </Tilt>
               <Tilt scale={1.05} perspective={500}>
-                <div data-aos='fade-up' onMouseEnter={textEnter} onMouseLeave={textLeave} className='box grid place-items-center'>
+                <div data-aos='fade-in' onMouseEnter={textEnter} onMouseLeave={textLeave} className='box grid place-items-center'>
                   <img src={Tw}></img>
                 </div>
               </Tilt>
               <Tilt scale={1.05} perspective={500}>
-                <div data-aos='fade-up' onMouseEnter={textEnter} onMouseLeave={textLeave} className='box grid place-items-center'>
+                <div data-aos='fade-in' onMouseEnter={textEnter} onMouseLeave={textLeave} className='box grid place-items-center'>
                   <img className='h-2/3 w-2/3' src={h5}></img>
                 </div>
               </Tilt>
               <Tilt scale={1.05} perspective={500}>
-                <div data-aos='fade-up' onMouseEnter={textEnter} onMouseLeave={textLeave} className='box grid place-items-center'>
+                <div data-aos='fade-in' onMouseEnter={textEnter} onMouseLeave={textLeave} className='box grid place-items-center'>
                   <img className='h-5/6 w-5/6' src={c3}></img>
                 </div>
               </Tilt>
             </div>
             </div>
-            <div data-aos='fade-up' className='pl-4 w-96 flex justify-center pt-4'>
+            <div data-aos='fade-in' className='pl-4 w-96 flex justify-center pt-4'>
               <h1>Stepping stone project</h1>
             </div>
           </div>

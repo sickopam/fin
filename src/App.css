@@ -338,6 +338,10 @@ img::selection {
   animation: fup2 3s ease;
 }
 
+img {
+  pointer-events: none;
+}
+
 @keyframes fup { 
   0% {opacity: 0.5}
   20% {opacity: 1}

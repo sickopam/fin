@@ -32,7 +32,7 @@ function App() {
           </div>
         </div>
         :
-        <Main/>
+          <Main/>
 
       }
     </div>
