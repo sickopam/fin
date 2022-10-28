@@ -104,7 +104,7 @@ export default function Main() {
                             text-xs md:text-sm 
                             h-1/2
                             p-3 md:p-6 lg:p-9
-                            mt-64 md:mt-48 lg:mt-12 xl:mt-24
+                            mt-64 md:mt-48 lg:mt-12 xl:mt-2
                             mb-3 lg:mb-2
                             '>
               <div className='grid content-end w-1/3'>
