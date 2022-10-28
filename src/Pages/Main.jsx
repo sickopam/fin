@@ -14,6 +14,7 @@ import h5 from '../img/h5.png'
 import c3 from '../img/c3.png'
 import ig from '../img/ig.png'
 import me2 from '../img/me.jpg'
+import opam from '../img/opam.jpeg'
 import loc from '../img/loc.png'
 import phone from '../img/phone.png'
 import gmail from '../img/gmail.png'
@@ -145,7 +146,7 @@ export default function Main() {
                         <motion.div onMouseEnter={textEnter} onMouseLeave={textLeave}  whileHover={{scale:1.05}} whileTap={{scale:0.95}}>
                           <img
                           data-aos='fade-in' 
-                          className='rounded-xl drop-shadow-xl' src={me2}></img>
+                          className='rounded-xl drop-shadow-xl' src={opam}></img>
                         </motion.div>
                       </div>
                     </div>
