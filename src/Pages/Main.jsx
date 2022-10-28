@@ -108,7 +108,7 @@ export default function Main() {
                             mb-3 lg:mb-2
                             '>
               <div className='grid content-end w-1/3'>
-                <h1 className='md:w-11/12 pl-3 lg:pl-4 mr-42 xl:mr-96'>Sieg Heil</h1>
+                <h1 className='md:w-11/12 pl-3 lg:pl-4 mr-42 xl:mr-96'>Made in Summer</h1>
               </div>
               <div className='flex justify-between items-end
                               w-fit gap-2 md:gap-5
@@ -296,8 +296,8 @@ export default function Main() {
                     <h1 data-aos='fade-in' className='wbg'>2022 –– present</h1>
                   </div>
                   <div data-aos='fade-in' className='mt-3'>
-                    <a onMouseEnter={textEnter} onMouseLeave={textLeave} href='https://idx.co.id' target='_blank' className='wbg underlink2'>intern at indonesian stock exchange company [idx]</a>
-                    <p data-aos='fade-in' className='mt-3 wbg'>information technology developer</p>
+                    <a onMouseEnter={textEnter} onMouseLeave={textLeave} href='https://idx.co.id' target='_blank' className='wbg underlink2'>head of student association voting website [pemira]</a>
+                    <p data-aos='fade-in' className='mt-3 wbg'>front-end developer</p>
                   </div>
                 </div>
                   <div></div>
